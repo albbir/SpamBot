@@ -5,7 +5,7 @@ import sqlite3
 from dbConnector import*
 from telebot import types
 
-bot = telebot.TeleBot("7198687853:AAGKvZwo9_Hzhh5yuPuRY3ziltbyrvxtQ6I")
+bot = telebot.TeleBot("")#your token
 
 @bot.message_handler(commands=['start'])
 def get_spam(message):
